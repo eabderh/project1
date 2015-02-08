@@ -21,7 +21,7 @@ an = $(a) $(af)
 
 
 
-project: leakcount
+project: leakcount memory_shim.so
 
 
 leakcount : leakcount.o list.o
