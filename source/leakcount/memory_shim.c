@@ -72,7 +72,7 @@ free_normal = dlsym(RTLD_NEXT, "free");
 malloc_normal = dlsym(RTLD_NEXT, "malloc");
 
 
-free_var = free_normal; 
+free_var = free_normal;
 malloc_var = malloc_normal;
 
 fdata = fopen(TEMP_FILE, "w+");

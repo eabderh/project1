@@ -38,7 +38,8 @@ clearscreen :
 
 t : $(wildcard t*)
 
-t0 :
+t0 : test.o
+	$(c) test.o -o test
 t1 :
 t2 :
 t3 :

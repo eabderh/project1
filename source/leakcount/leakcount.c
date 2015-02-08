@@ -182,7 +182,7 @@ else
 
 	list_destruct(list);
 	fclose(fdata);
-	remove(TEMP_FILE);
+	//remove(TEMP_FILE);
 
 	}
 
