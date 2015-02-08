@@ -1,13 +1,15 @@
 /*---- FILE HEADER ----------------------------------------------------------
-project: project1
+project: ece3220 project1
 file: leakcount.c
 author: elias abderhalden
-date: 2014-10-03
+date: 2015-02-08
 -----------------------------------------------------------------------------
-class: ece3220 fall 2014
-instructor: jacob sorber
-assignment: project 1: tracing, system calls, and processes
+notes:
+	class: ece3220 fall 2014
+	instructor: jacob sorber
+	assignment: project 1: tracing, system calls, and processes
 ---------------------------------------------------------------------------*/
+
 
 #define _GNU_SOURCE
 
