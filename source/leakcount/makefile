@@ -54,16 +54,9 @@ t9 :
 	$(cn) -c -o $@ $<
 
 
+cl :
+	find . -type f -not -name '*.c' -not -name '*.h' -not -name 'makefile' | xargs rm
 
-
-cl : clo clsl cla
-	rm -f core
-clo :
-	rm -f *.o
-clsl :
-	rm -f *.so
-cla :
-	rm -f *.a
 
 
 
